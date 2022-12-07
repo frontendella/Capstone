@@ -10,7 +10,10 @@ function App() {
       <Header />
 
       <Routes>
-        <Route exact path="/" element={<Photos />}></Route>
+        <Route
+          exact
+          path="/Photo-e-commerce-website/"
+          element={<Photos />}></Route>
         <Route exact path="/cart" element={<Cart />}></Route>
       </Routes>
     </div>

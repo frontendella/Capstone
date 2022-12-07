@@ -9,7 +9,7 @@ function Header() {
     cartItems.length > 0 ? "ri-shopping-cart-fill" : "ri-shopping-cart-line";
   return (
     <header>
-      <Link to="/">
+      <Link to="/Photo-e-commerce-website/">
         <h2>Pic Some</h2>
       </Link>
       <Link to="/cart">
